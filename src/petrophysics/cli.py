@@ -16,6 +16,11 @@ Why does this file exist, and why not put this in __main__?
 """
 import sys
 
+def hello():
+    """
+    Returns a Hello, World!
+    """
+    return("Hello, World!")
 
 def main(argv=sys.argv):
     """
